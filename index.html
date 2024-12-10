@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Profile</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .post-box {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+    .post-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-light py-2 border-bottom sticky-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/>
+      </svg>
+      <h1 class="h4 mb-0">_Kavya.17 </h1>
+      <input type="search" class="form-control w-50" placeholder="Search">
+      <div>
+        <button class="btn btn-light"><i class="bi bi-house"></i></button>
+        <button class="btn btn-light"><i class="bi bi-chat"></i></button>
+        <button class="btn btn-light"><i class="bi bi-heart"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile Section -->
+  <section class="container mt-4">
+    <div class="row align-items-center">
+      <!-- Profile Picture -->
+      <div class="col-md-3 text-md-start text-center">
+        <img src="media/images/logo/img11.jpg" alt="Profile Picture" class="rounded-circle img-thumbnail" width="150">
+      </div>
+
+      <!-- User Information -->
+      <div class="col-md-9">
+        <div class="d-flex align-items-center">
+          <h2 class="h4 mb-0 me-3">_Kavya.17</h2>
+          <button class="btn btn-outline-primary btn-sm me-2">Edit Profile</button>
+          <button class="btn btn-outline-secondary btn-sm">Settings</button>
+        </div>
+        <div class="d-flex mt-3">
+          <p class="me-4"><strong>8</strong> posts</p>
+          <p class="me-4"><strong>500</strong> followers</p>
+          <p><strong>300</strong> following</p>
+        </div>
+        <p class="mt-2">Just go with the flow.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Posts Section -->
+  <section class="container mt-4">
+    <div class="row g-2">
+      <div class="col-4">
+        <div class="post-box">
+          <img src="media/images/posts/beach.jpg" alt="Post">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post-box">
+          <img src="media/images/posts/flowers.webp" alt="Post">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post-box">
+          <img src="media/images/posts/img3.jpg" alt="Post">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post-box">
+          <img src="media/images/posts/img4.jpg" alt="Post">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post-box">
+          <img src="media/images/posts/img5.jpg" alt="Post">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post-box">
+          <img src="media/images/posts/img6.jpg" alt="Post">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post-box">
+          <img src="media/images/posts/road.jpg" alt="Post">
+        </div>
+      </div>
+      <!-- Add more posts here -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-light mt-4">
+    &copy; 2024 Kavya Instagram
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
